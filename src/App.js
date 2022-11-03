@@ -9,7 +9,7 @@ function App() {
     <div>
       <BrowserRouter basename="/githubHosting">
         <Routes>
-          <Route path="/" element={<FirstPage />} exact></Route>
+          <Route path="/githubHosting" element={<FirstPage />} exact></Route>
           <Route path="/second" element={<SecondPage />} exact></Route>
           <Route path="/third" element={<ThirdPage />} exact></Route>
         </Routes>
