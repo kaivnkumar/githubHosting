@@ -8,9 +8,9 @@ function App() {
   return (
     <div>  
       <Routes>
-        <Route path="/" element={<FirstPage />} exact></Route>
-        <Route path="/second" element={<SecondPage />} exact></Route>
-        <Route path="/third" element={<ThirdPage />} exact></Route>
+        <Route path="/githubHosting/" element={<FirstPage />} exact></Route>
+        <Route path="/githubHosting/second" element={<SecondPage />} exact></Route>
+        <Route path="/githubHosting/third" element={<ThirdPage />} exact></Route>
       </Routes>
     </div>
   );
